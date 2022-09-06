@@ -44,6 +44,7 @@
 
 .profile-image {
   width: 300px;
+  height: 450px;
   border-radius: 20px;
 }
 
@@ -526,10 +527,6 @@ video{
 
   .kfc{
     margin-top: 20px;
-  }
-
-  .kfc:hover{
-    transform: none;
   }
 
   .workshop-info-image{
