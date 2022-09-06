@@ -9,6 +9,7 @@ import TVC from '../mp4/TVC.mp4'
 
 import kfc from '../picture/kfc.png'
 import profile from '../picture/profile.jpg'
+import profile_information from '../picture/profile-detail.png'
 import foodpanda from '../picture/panda.png'
 import second from '../picture/second-year.png'
 import uecof from '../picture/uecof.png'
@@ -48,20 +49,25 @@ export default function Main() {
 
   return (
     <div className="main" style={{ backgroundImage: `url(${background})` }}>
+      <div className='main-title-tag'>
+         <h1 className='main-title'>Portfolio</h1>
+      </div>
 
       <div className='header'>
 
-        <div className='profile'>
+
           <img className='profile-image' 
             src={profile}
             alt='profile' 
             />
-        </div>
-
-        <div className='title'>
-          <h1 className='title-info'>Portfolio</h1>
-        </div>
-
+          <div className='profile-information-tag'>
+            <h1 className='title-info'>Portfolio</h1>
+            <img 
+              className='profile-information'
+              src={profile_information}
+              alt='profile information'
+            />
+          </div>
       </div>
 
       <div className='details'>

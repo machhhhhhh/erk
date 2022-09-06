@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+.main-title{
+  display: none;
+  text-align: center;
+}
+
 .header {
   display: flex;
+  justify-content: space-evenly;
   padding-bottom: 40px;
+  padding-top: 30px;
   box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
 }
 
@@ -19,11 +26,21 @@
 
 .title-info{
   text-align: center;
-  font-size: 10em;
+  font-size: 4.5em;
 }
-.profile{
-  margin-left: 10%;
-  margin-top: 3%;
+
+.profile-information-tag{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-information{
+  width: 500px;
+  height:350px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0px 15px;
 }
 
 .profile-image {
@@ -161,6 +178,7 @@
 
 .uecof-main{
   width: 270px;
+  height: 275px;
 }
 
 .third-year-uecof {
@@ -276,9 +294,11 @@ video{
 
 .workshop-image-up{
   width: 400px;
+  height: 270px;
 }
 .workshop-image-down{
   width: 400px;
+  height: 270px;
 }
 
 .workshop-info-certificate{
@@ -291,14 +311,30 @@ video{
 }
 
 
-@media  (max-width : 700px){
+@media  (max-width : 1000px){
+  .main-title-tag{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .main-title{
+    display: initial;
+    font-size: 4em;
+  }
+
   .header{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+
+  .profile-information{
+    margin-top: 30px;
+    width: 350px;
+    height: 280px;
+  }
+
   .title-info{
-    font-size: 4em;
-    margin-top: 20px;
+    display: none;
   }
   .p-tag{
     font-size: 0.8em;
@@ -332,6 +368,9 @@ video{
     margin-bottom: 20px;
   }
 
+  .kfc{
+    transform: none;
+  }
 
   .third-year-header{
     display: flex;
@@ -357,6 +396,7 @@ video{
   }
   .third-year-mp3-detail{
     margin-top: 30px;
+    text-align: center;
   }
   .interview-tag{
     margin-top: 30px;
@@ -390,6 +430,7 @@ video{
   .uecof-main{
     margin-top: 30px;
     width: 150px;
+    height: 150px;
   }
   .uecof-footer{
     display: flex;
