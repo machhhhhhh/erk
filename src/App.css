@@ -32,7 +32,6 @@
 .profile-information-tag{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .profile-information{
@@ -348,6 +347,9 @@ video{
   .kfc{
     margin-top: 20px;
   }
+  .kfc:hover{
+    transform: none;
+  }
   .second-year-tag{
     text-align: center;
     font-size: 2.5em;
@@ -369,7 +371,7 @@ video{
   }
 
   .kfc{
-    transform: none;
+    transform: default;
   }
 
   .third-year-header{
@@ -498,5 +500,45 @@ video{
   .workshop-image-down{
     width: 250px;
     height: 170px;
+  }
+}
+
+
+
+@media ( max-width : 1400px) {
+  
+  .media-planning-kfc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .third-year-uecof-header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uecof-main{
+    margin-top: 20px;
+  }
+
+  .kfc{
+    margin-top: 20px;
+  }
+
+  .kfc:hover{
+    transform: none;
+  }
+
+  .workshop-info-image{
+    width: 250px;
+    height: 220px;
+  }
+
+  .workshop-image-down{
+    width: 300px;
+    height: 220px;
   }
 }

@@ -191,35 +191,35 @@ export default function Main() {
 
               <div className='third-year-uecof'>
                   <div className='third-year-uecof-header'>
+                    <img
+                      className='uecof-main uecof-main-final'
+                      src={u5}
+                      alt='uecof'
+                    />
                    <div className='third-year-uecof-header-tag'>
                     <img
                         className='uecof-main'
-                        src={u5}
+                        src={u1}
                         alt='uecof'
                       />
                       <img
                         className='uecof-main uecof-main-tag'
-                        src={u1}
+                        src={u2}
                         alt='uecof'
                       />
                    </div>
                     <div className='third-year-uecof-header-tag'>
                       <img
                         className='uecof-main '
-                        src={u2}
+                        src={u3}
                         alt='uecof'
                       />
                       <img
                         className='uecof-main uecof-main-tag'
-                        src={u3}
+                        src={u4}
                         alt='uecof'
                       />
                     </div>
-                    <img
-                      className='uecof-main uecof-main-final'
-                      src={u4}
-                      alt='uecof'
-                    />
                   </div>
               </div>
 
